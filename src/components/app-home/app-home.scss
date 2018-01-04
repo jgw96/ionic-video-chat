@@ -1,0 +1,42 @@
+#mainVideo {
+  width: 100%;
+  object-fit: cover;
+  z-index: -99;
+  flex-grow: 2;
+}
+
+stencil-route-link {
+  width: 80%;
+}
+
+#mainBlock {
+  display: flex;
+  flex-direction: column;
+  height: 91.5vh;
+}
+
+#inputBlock {
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+  margin-bottom: 20px;
+}
+
+input:focus { 
+  outline: none; 
+}
+
+ion-button {
+  width: 80%;
+}

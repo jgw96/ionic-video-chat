@@ -1,0 +1,31 @@
+#local {
+  width: 150px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#remote {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  z-index: -99;
+}
+
+#disconnect {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#share {
+  position: absolute;
+  right: 0;
+}
